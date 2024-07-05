@@ -4,49 +4,41 @@
     height: 0;
     width: 100vw;
     position: absolute;
+    top: 80px;
     left: 0;
-    top: 70px;
-    animation: slideInFromLeft 0.4s ease-out forwards;
-    box-shadow: 5px 33px 28px -37px rgba(66, 68, 90, 1);
-  }
-  .nav-elementos.active {
-    height: 300px;
+    right: 0;
+    background: white;
+    transition: 0.2s;
+    overflow: hidden;
   }
   .nav-elementos ul {
     display: block;
     width: fit-content;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     text-align: center;
+    transition: 0.5s;
     opacity: 0;
-    transition: 0.4s;
   }
-
   .nav-elementos ul li {
-    width: 100vw;
-    height: 30px;
-    margin: 24px auto;
+    margin-bottom: 50px;
+    transition: transform ease 0.8s;
   }
   .nav-elementos ul li:hover {
-    border: 1ps solid black;
+    transform: scale(1.5);
   }
-  .nav-elementos.active ul {
-    opacity: 1;
-  }
-
-  .nav-elementos li {
-    margin: 20px 25px;
-    transition: 0.3s ease;
-  }
-  .nav-elementos li:hover {
-    transform: translateX(5px);
-  }
-  .nav-elementos li:active {
-    transform: translateX(10px);
+  .nav-elementos ul li a {
+    color: black;
   }
   .redes-sociales {
     display: none;
   }
   #toggle-main {
     display: contents;
+  }
+  .nav-elementos.active {
+    height: 450px;
+  }
+  .nav-elementos.active ul {
+    opacity: 1;
   }
 }

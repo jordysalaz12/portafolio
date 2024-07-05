@@ -1,0 +1,20 @@
+@import url("estilos/nav.css");
+@import url("estilos/fuentes.css");
+@import url("estilos/mediaquerys.css");
+@import url("estilos/presentacion.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-background: #ffffff; /* Blanco */
+  --color-primary: #000000; /* Negro */
+  --color-secondary: #ffffff; /* Blanco */
+  --color-accent: #444444; /* Gris oscuro para acentos */
+  --color-tertiary: #ff6f61;
+  --font-main: "Arial", sans-serif;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  /* Estilos para dispositivos móviles y tabletas */
+  .nav-elementos {
+    height: 0;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    animation: slideInFromLeft 0.4s ease-out forwards;
+    box-shadow: 5px 33px 28px -37px rgba(66, 68, 90, 1);
+  }
+  .nav-elementos.active {
+    height: 300px;
+  }
+  .nav-elementos ul {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  .nav-elementos ul li {
+    width: 100vw;
+    height: 30px;
+    margin: 24px auto;
+  }
+  .nav-elementos ul li:hover {
+    border: 1ps solid black;
+  }
+  .nav-elementos.active ul {
+    opacity: 1;
+  }
+
+  .nav-elementos li {
+    margin: 20px 25px;
+    transition: 0.3s ease;
+  }
+  .nav-elementos li:hover {
+    transform: translateX(5px);
+  }
+  .nav-elementos li:active {
+    transform: translateX(10px);
+  }
+  .redes-sociales {
+    display: none;
+  }
+  #toggle-main {
+    display: contents;
+  }
+}

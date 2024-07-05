@@ -1,0 +1,41 @@
+.presentacion {
+  height: 600px;
+  width: 100vw;
+  display: flex;
+  background: black;
+}
+
+.img-rostro {
+  background: url("/imagenes/miRostro.png") no-repeat;
+  background-size: cover;
+  height: 600px;
+  min-width: 50%;
+  opacity: 0.5;
+}
+
+.descripcion {
+  color: white;
+  min-width: 50%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  animation: parpadeo 2.5s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+.descripcion :hover {
+  transform: scale(1.5);
+}
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

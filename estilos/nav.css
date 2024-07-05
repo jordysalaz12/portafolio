@@ -1,0 +1,77 @@
+.nav-main {
+  height: 4.375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+.nav-main:hover {
+  border-bottom-color: var(--color-tertiary);
+}
+/* logo */
+.logo {
+  background: url("/logo/gemini.svg") no-repeat;
+  height: 2rem;
+  width: 8rem;
+  background-size: cover;
+  margin: 0 20px;
+}
+
+/* nav elementos */
+.nav-elementos ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+.nav-elementos li {
+  list-style-type: none;
+}
+.nav-elementos li a {
+  text-decoration: none;
+  margin: 0 var(--spacing-small);
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+.nav-elementos li a:hover {
+  color: var(--color-tertiary);
+}
+
+/* redes sociales */
+.redes-sociales {
+  margin: 0 20px;
+}
+.redes-sociales li {
+  display: flex;
+}
+.redes-sociales i {
+  color: black;
+  margin: 0 5px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.redes-sociales i:hover {
+  color: var(--color-tertiary);
+}
+
+/* toggle */
+#toggle-main {
+  display: none;
+}
+#button-toggle {
+  border: none;
+  font-size: 40px;
+  margin: 0 25px;
+  background: transparent;
+  transition: transform color 0.3s ease;
+}
+
+#button-toggle:hover {
+  color: var(--color-tertiary);
+  transition-duration: 0.2s;
+}
+
+#button-toggle:active {
+  transform: rotate(180deg);
+}

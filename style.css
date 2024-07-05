@@ -1,7 +1,7 @@
-@import url("estilos/nav.css");
-@import url("estilos/presentacion.css");
-@import url("estilos/fuentes.css");
-@import url("estilos/mediaquerys.css");
+@import url("/estilos/fuentes.css");
+@import url("/estilos/nav.css");
+@import url("/estilos/presentacion.css");
+@import url("/estilos/mediaquerys.css");
 
 * {
   margin: 0;

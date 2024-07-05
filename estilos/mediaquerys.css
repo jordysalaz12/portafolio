@@ -4,7 +4,8 @@
     height: 0;
     width: 100vw;
     position: absolute;
-    top: 80px;
+    z-index: 9999999;
+    top: 70px;
     left: 0;
     right: 0;
     background: white;
@@ -36,7 +37,7 @@
     display: contents;
   }
   .nav-elementos.active {
-    height: 450px;
+    height: 360px;
   }
   .nav-elementos.active ul {
     opacity: 1;

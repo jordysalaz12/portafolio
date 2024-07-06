@@ -1,9 +1,13 @@
 .nav-main {
   height: 4.375rem;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: border-bottom-color 0.3s ease;
+  position: fixed;
+  z-index: 1000;
+  background: white;
 }
 .nav-main:hover {
   border-bottom-color: var(--color-tertiary);

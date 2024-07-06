@@ -9,6 +9,7 @@
     left: 0;
     right: 0;
     background: white;
+    opacity: 0.9;
     transition: 0.2s;
     overflow: hidden;
   }
@@ -25,7 +26,7 @@
     transition: transform ease 0.8s;
   }
   .nav-elementos ul li:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
   .nav-elementos ul li a {
     color: black;
@@ -41,5 +42,18 @@
   }
   .nav-elementos.active ul {
     opacity: 1;
+  }
+}
+
+/* presentacion */
+@media screen and (max-width: 768px) {
+  .img-rostro {
+    position: absolute;
+    width: 100vw;
+  }
+  .descripcion {
+    width: 100vw;
+    justify-content: end;
+    margin: 30px;
   }
 }

@@ -1,6 +1,6 @@
 /* presentacion */
 .presentacion {
-  position: absolute;
+  position: relative;
   z-index: 222;
   height: 600px;
   width: 100vw;
@@ -9,7 +9,7 @@
 }
 
 .img-rostro {
-  background: url("/imagenes/miRostro.png") no-repeat;
+  background: url("/imagenes/mifoto.png") no-repeat;
   background-size: cover;
   height: 600px;
   min-width: 50%;
